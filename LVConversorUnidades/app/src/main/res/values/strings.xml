@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LV-ConversorUnidades</string>
+    <string name="btnconvertir">Convertir</string>
+    <string name="txtGramos"> -</string>
+    <string name="gramos">Gramos</string>
+    <string name="libras">Libras</string>
+    <string name="kilos">Kilos</string>
+    <string name="toneladas">Toneladas</string>
+    <string name="tone"> -</string>
+    <string name="libra"> -</string>
+    <string name="kilo"> -</string>
+    <string name="valor_peso">Ingrese el valor</string>
+    <string name="valor">Ingrese un valor en el campo</string>
+    <string name="milimetros">Milimetros</string>
+    <string name="centimetros">Centimetros</string>
+    <string name="metros">Metros</string>
+    <string name="kilometros">Kilometros</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="i">-</string>
+
+
+</resources>

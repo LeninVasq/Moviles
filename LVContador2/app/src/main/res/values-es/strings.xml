@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LV-Contador</string>
+    <string name="text_button">Clic Aqui</string>
+    <string name="Saludo">Bienvenidos</string>
+    <string name="Descrip">Logotipo de la universidad</string>
+    <string name="text_codigo">"Clic numero: "</string>
+</resources>

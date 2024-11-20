@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@+id/miTabHost"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/layoutPrincipal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/tabs"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@android:id/tabcontent">
+            <!--Tabs para unidades de peso-->
+            <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/layoutlong"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/spinerLog"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/unidadeslong"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <EditText
+
+                        android:id="@+id/txtvalorLong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/valor_peso"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColorHint="#546E7A"
+                        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnConvertirLong"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnconvertir"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TableLayout
+                    android:id="@+id/layoutTablaLong"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow>
+
+                        <TextView android:text="@string/milimetros" />
+
+                        <TextView
+                            android:id="@+id/txtmilimetros"
+                            android:text="@string/txtGramos" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/centimetros" />
+
+                        <TextView
+                            android:id="@+id/txtcentimetros"
+                            android:text="@string/libra" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/metros" />
+
+                        <TextView
+                            android:id="@+id/txtmetros"
+                            android:text="@string/kilo" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/kilometros" />
+
+                        <TextView
+                            android:id="@+id/txtkilometros"
+                            android:text="@string/tone" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/i" />
+
+                <LinearLayout
+                    android:id="@+id/layoutControles"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/spinnerUnidades"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/unidadesPeso"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <EditText
+
+                        android:id="@+id/txtValorPeso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/valor_peso"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColorHint="#546E7A"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnConvertir"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnconvertir" />
+
+                <TableLayout
+                    android:id="@+id/layoutTablaPesos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow>
+
+                        <TextView android:text="@string/gramos" />
+
+                        <TextView
+                            android:id="@+id/txtGramos"
+                            android:text="@string/txtGramos" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/libras" />
+
+                        <TextView
+                            android:id="@+id/txtLibras"
+                            android:text="@string/libra" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/kilos" />
+
+                        <TextView
+                            android:id="@+id/txtKilos"
+                            android:text="@string/kilo" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/toneladas" />
+
+                        <TextView
+                            android:id="@+id/txtToneladas"
+                            android:text="@string/tone" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/layouttemp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/spinerTemp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/unidadesTemp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <EditText
+
+                        android:id="@+id/txtvalorTemp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/valor_peso"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColorHint="#546E7A"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnConvertirTemp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnconvertir" />
+
+                <TableLayout
+                    android:id="@+id/layoutTablaTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow>
+
+                        <TextView android:text="@string/celsius" />
+
+                        <TextView
+                            android:id="@+id/txtCelsius"
+                            android:text="@string/txtGramos" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/fahrenheit" />
+
+                        <TextView
+                            android:id="@+id/txtFahrenheit"
+                            android:text="@string/libra" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="@string/kelvin" />
+
+                        <TextView
+                            android:id="@+id/txtKelvin"
+                            android:text="@string/kilo" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <!--Tabs para unidades de longitud-->
+
+            <!--Tabs para unidades de temperatura-->
+        </FrameLayout>
+    </LinearLayout>
+    </TabHost>

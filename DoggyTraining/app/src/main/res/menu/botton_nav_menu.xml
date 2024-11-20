@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@drawable/entrenamiento"
+        android:id="@+id/entrenamiento"
+        android:title=""
+        />
+    <item
+        android:icon="@drawable/corazon"
+        android:id="@+id/cuidado"
+        android:title=""
+        />
+
+
+    <item android:title=""
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/Home"
+        />
+
+    <item android:title=""
+        android:icon="@drawable/carro"
+        android:id="@+id/tienda"/>
+
+    <item android:title=""
+        android:icon="@drawable/usuario"
+        android:id="@+id/cuentna"/>
+</menu>

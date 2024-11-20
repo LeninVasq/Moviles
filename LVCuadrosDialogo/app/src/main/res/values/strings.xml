@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LV-CuadrosDialogo</string>
+    <string name="titulo">Titulo de Cuadros de Dialogo</string>
+    <string name="alert_info">Informativo</string>
+    <string name="alert_confirm">Confirmacion</string>
+    <string name="alert_multiple">Multiple</string>
+    <string name="alert_personalizado">Personalizado</string>
+    <string name="dialogo_linea_1">Text Titulo</string>
+    <string name="dialogo_linea_2">Text Subtitulo</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Valencia-Vasquez-EVP1</string>
+    <string name="error">La contraseña es incorrecta</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Carnet">Ingrese el carnet</string>
+    <string name="ingrese_el_carnet">Ingrese la contraseña</string>
+    <string name="numcarnet">Carnet :</string>
+    <string name="todo">TODO</string>
+    <string name="foto">Esta es mi foto</string>
+    <string name="nombre">Lenin Nehemias Vasquez Valencia</string>
+</resources>

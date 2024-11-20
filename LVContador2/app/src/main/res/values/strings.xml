@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LV-Contador</string>
+    <string name="text_button">" Click Here"</string>
+    <string name="Descrip">" University logo"</string>
+    <string name="Saludo">Welcome</string>
+    <string name="text_codigo">"Clic number: "</string>
+
+</resources>

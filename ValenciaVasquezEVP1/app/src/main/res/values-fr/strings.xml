@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valencia-Vasquez-EVP1</string>
+    <string name="error">Le mot de passe est incorrect</string>
+    <string name="ingresar">Entrer dans</string>
+    <string name="Carnet">Entrez la carte</string>
+    <string name="ingrese_el_carnet">Entrez le mot de passe</string>
+    <string name="numcarnet">Licence:</string>
+    <string name="todo">TOUS</string>
+    <string name="foto">C\'est ma photo</string>
+    <string name="nombre">Lénine Néhémie Vasquez Valence</string>
+</resources>

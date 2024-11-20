@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="60dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reproducir_archivos_de_audio"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_click"
+            android:contentDescription="@string/icono_de_clic"
+            android:onClick="SonidoClick"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_alarm"
+            android:contentDescription="@string/icono_de_alarma"
+            android:onClick="SonidoAlarma"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_explision"
+            android:contentDescription="@string/icono_de_explosion"
+            android:onClick="SonidoExplosion"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opciones_de_grabacion"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/bGrabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_records"
+            android:contentDescription="@string/icono_de_grabar"
+            android:onClick="grabar"/>
+
+        <ImageButton
+            android:id="@+id/bDetenerG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_stop"
+            android:contentDescription="@string/icono_de_detener_grabacion"
+            android:onClick="detenergabacion"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opciones_de_reproduccion"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/bReproducir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_play"
+            android:contentDescription="@string/icono_de_reproducir"
+            android:onClick="Reproducir"/>
+
+        <ImageButton
+            android:id="@+id/vDetenerR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_stop_2"
+            android:contentDescription="@string/detener_reproducion"
+            android:onClick="DetenerReproducion"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvRuta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#F00"
+        android:text="@string/ruta_de_archivo"
+        android:textSize="24sp" />
+</LinearLayout>

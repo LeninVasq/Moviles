@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0020ED"
+        android:text="@string/texto"
+        android:textColor="#9E9E9E"
+        android:textColorLink="#FFFFFF"
+        android:textSize="34sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textxo1"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/etV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorLink="#546E7A"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="105dp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto2"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/etV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <RadioGroup
+        android:id="@+id/rgOperaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSuma"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textoSumar"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbResta"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tectoRestar" />
+
+        <RadioButton
+            android:id="@+id/rbMultiplicacion"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textoMultiplicar" />
+
+        <RadioButton
+            android:id="@+id/rbDivision"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textoDividir" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textoCalcular"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoResultado"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="519dp" />
+</LinearLayout>

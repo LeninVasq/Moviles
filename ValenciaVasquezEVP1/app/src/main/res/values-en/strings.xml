@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valencia-Vasquez-EVP1</string>
+    <string name="error">The password is incorrect</string>
+    <string name="ingresar">Get into</string>
+    <string name="Carnet">Enter the card</string>
+    <string name="ingrese_el_carnet">Enter password</string>
+    <string name="numcarnet">License:</string>
+    <string name="todo">ALL</string>
+    <string name="foto">This is my photo</string>
+    <string name="nombre">Lenin Nehemias Vasquez Valencia</string>
+</resources>

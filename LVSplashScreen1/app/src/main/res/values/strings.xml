@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LV-SplashScreen1</string>
+    <string name="textto_boton">Entrar</string>
+    <string name="texto_interno">Area interna de la App</string>
+</resources>

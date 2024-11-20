@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LV-NotiToast</string>
+    <string name="titulo">Notificaciones Toast</string>
+    <string name="toast_por_defecto">Por Defecto</string>
+    <string name="toast_por_defect_gravity">Gravity</string>
+    <string name="toast_personalizado">Personalizado</string>
+</resources>

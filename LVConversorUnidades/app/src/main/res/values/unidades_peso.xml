@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unidadesPeso">
+        <item>Gramo</item>
+        <item>Libra</item>
+        <item>Kilo</item>
+        <item>Tonelada</item>
+    </string-array>
+</resources>

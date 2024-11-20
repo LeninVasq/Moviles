@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Doggy Training</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aqui_el_signo_de_mas_para_agregar_otra_cuenta">Aqui el signo de mas para agregar otra cuenta</string>
+    <string name="editar_informacion_del_perrito">Editar Informacion del perrito</string>
+</resources>

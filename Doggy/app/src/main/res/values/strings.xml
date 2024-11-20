@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Doggy</string>
+    <string name="img_de_la_apk">IMG de la apk</string>
+    <string name="label">Ingrese el usuario</string>
+    <string name="content_description_end_icon">IMG de la apk</string>
+    <string name="entrena_con_amor">ENTRENA CON AMOR</string>
+    <string name="educa_con_confianza">EDUCA CON CONFIANZA</string>
+</resources>

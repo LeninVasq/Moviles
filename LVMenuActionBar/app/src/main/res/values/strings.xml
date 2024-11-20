@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LV-MenuActionBar</string>
+
+    <string name="add">Agregar</string>
+    <string name="search">Buscar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="info_ini">Selecciona una opcion del Menu</string>
+</resources>

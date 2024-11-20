@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LV-MenuContext</string>
+    <string name="msg">Hello  World!</string>
+    <string name="opc_etiqueta1">Opcion 1</string>
+    <string name="opc_etiqueta2">Opcion 2</string>
+    <string name="opclista1">Lista 1</string>
+    <string name="opclista2">Lista 2</string>
+</resources>

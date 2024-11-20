@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LV-OperacionesBasicas2</string>
+    <string name="textoCalcular">Calcular</string>
+    <string name="Hint1">###.##</string>
+    <string name="texto1">Valor 1</string>
+    <string name="texto2">Valor 2</string>
+    <string name="texto3">Resultado</string>
+    <string name="error2">Debe ingresar el valor 2</string>
+    <string name="error1">Debe ingresar el valor 1</string>
+    <string name="error">Error</string>
+
+    <string-array name="operaciones">
+        <item>Sumar</item>
+        <item>Restar</item>
+        <item>Multiplicacion</item>
+        <item>Division</item>
+    </string-array>
+
+</resources>

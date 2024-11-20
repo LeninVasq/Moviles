@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/salida"
+        android:title="@string/Salida"
+        android:orderInCategory="1"
+        android:icon="@drawable/exit"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/Infopersonal"
+        android:title="@string/Fotos"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/Cambiarpiano"
+        android:title="@string/cambiarpiano"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Doggy </string>
+    <string name="Slogan">ENTRENA CON AMOR, EDUCA CON CONFIANZA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!---->
+    <string name="frament_home">Bienvenido a inicio</string>
+
+    <!---->
+    <string name="frament_tienda">Bienvenido a la tienda</string>
+
+    <!---->
+    <string name="frament_entrenamiento">Bienvenido a el area de entrenamiento</string>
+
+
+    <!---->
+    <string name="frament_cuenta">Bienvenido a tu area personal</string>
+
+    <!---->
+    <string name="frament_cuidado">Bienvenido a el area donde podras tener un control sobre el cuidado
+    de tu mascotas</string>
+
+</resources>

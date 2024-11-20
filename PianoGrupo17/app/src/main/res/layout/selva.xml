@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selva">
+
+    <ImageButton
+        android:id="@+id/lion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/lions"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclare"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="leon"/>
+
+    <ImageButton
+        android:id="@+id/teclare"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/teclarana"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclami"
+        app:layout_constraintStart_toEndOf="@+id/lion"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="rana"/>
+
+    <ImageButton
+        android:id="@+id/teclami"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/teclabuho"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclasol"
+        app:layout_constraintStart_toEndOf="@+id/teclare"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="buho"/>
+
+    <ImageButton
+        android:id="@+id/teclasol"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/teclacabra"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclafa"
+        app:layout_constraintStart_toEndOf="@+id/teclami"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="cabra"/>
+
+    <ImageButton
+        android:id="@+id/teclafa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/teclamono"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclala"
+        app:layout_constraintStart_toEndOf="@+id/teclasol"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:onClick="mono"/>
+
+    <ImageButton
+        android:id="@+id/teclala"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/tecladelfin"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teclasi"
+        app:layout_constraintStart_toEndOf="@+id/teclafa"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="delfin"/>
+
+    <ImageButton
+        android:id="@+id/teclasi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/teclaelefante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teclala"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="elefante"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

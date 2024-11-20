@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LV-ManejadorAudio</string>
+    <string name="icono_de_clic">Icono de clic</string>
+    <string name="icono_de_alarma">Icono de alarma</string>
+    <string name="icono_de_explosion">Icono de explosion</string>
+    <string name="reproducir_archivos_de_audio">Reproducir Archivos de Audio</string>
+    <string name="opciones_de_grabacion">Opciones de grabacion</string>
+    <string name="opciones_de_reproduccion">opciones de Reproduccion</string>
+    <string name="icono_de_detener_grabacion">icono de Detener Grabacion</string>
+    <string name="icono_de_grabar">icono de Grabar</string>
+    <string name="icono_de_reproducir">Icono de reproducir</string>
+    <string name="ruta_de_archivo">Ruta de archivo</string>
+    <string name="detener_reproducion">Detener Reproducion</string>
+</resources>

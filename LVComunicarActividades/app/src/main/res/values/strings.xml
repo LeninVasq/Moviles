@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LV-ComunicarActividades</string>
+    <string name="Copyringht">Derechos Reservados 2024</string>
+    <string name="autor">Lenin Nehemmias Vasquez Valencia</string>
+    <string name="logo">Logotipo</string>
+    <string name="texto_btn1">Enviar</string>
+    <string name="ayuda_visual">Ingrese su nombre</string>
+    <string name="texto_resultado">Resultado</string>
+    <string name="texto_btn3">Salir</string>
+    <string name="texto_btn2">Acerca de</string>
+    <string name="text_btn5">si</string>
+    <string name="text_btn4">No</string>
+    <string name="tv_datos">Datos Recibidos</string>
+    <string name="pregunta">\n ¿Le gusta la app?</string>
+    <string name="Respuesta_positiva">Si me gusta mucho.</string>
+    <string name="Respuesta_Negativa">No me gusta para nada.</string>
+</resources>

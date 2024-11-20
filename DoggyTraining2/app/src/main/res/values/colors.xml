@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_color">#FFFFFF</color>  <!-- Un color naranja -->
+    <color name="end_color">#FEFEFE</color>    <!-- Un color rojo oscuro -->
+    <color name="your_line_color">#686565</color>    <!-- Un color rojo oscuro -->
+</resources>

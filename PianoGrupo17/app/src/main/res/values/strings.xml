@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PianoGrupo17</string>
+    <string name="pianotradicional">Piano Tradiconal</string>
+    <string name="selva">Piano Infantil de la selva</string>
+    <string name="Salida">Salida</string>
+    <string name="Fotos">Acerca de Nosotros</string>
+    <string name="instrumentos">Piano de instrumentos musicales</string>
+    <string name="nombreelmer">Elmer Emmanuel Gutierrez Oliva</string>
+    <string name="numcarnetelmer">144923</string>
+    <string name="todo">Foto Elmer</string>
+    <string name="cambiarpiano">Cambiar el Piano</string>
+    <string name="numcarnetlenin">069823</string>
+    <string name="nombrelenin">Lenin Nehemias Vasquez Valencia</string>
+
+</resources>
